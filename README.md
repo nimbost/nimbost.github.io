@@ -2,7 +2,6 @@
 
 ThreadT is a professional terminal reconnaissance project for **authorized** security assessments.
 
-It prints a randomized ASCII intro logo each time it starts, performs multi-layer host intelligence collection, and writes a structured JSON report.
 
 ## Features
 
