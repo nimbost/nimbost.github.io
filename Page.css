@@ -1,0 +1,73 @@
+body {
+  margin: 0;
+  background: #0a0a0a;
+  color: #00ff9f;
+  font-family: monospace;
+}
+
+.app {
+  max-width: 1000px;
+  margin: auto;
+  padding: 20px;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 40px;
+  letter-spacing: 3px;
+}
+
+.controls {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+input {
+  flex: 1;
+  padding: 12px;
+  background: black;
+  border: 1px solid #00ff9f;
+  color: #00ff9f;
+}
+
+button {
+  padding: 12px 20px;
+  background: #00ff9f;
+  border: none;
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #00cc7a;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+}
+
+.panel {
+  background: #050505;
+  border: 1px solid #00ff9f;
+  padding: 10px;
+}
+
+.panel h3 {
+  margin-top: 0;
+  border-bottom: 1px solid #00ff9f;
+  padding-bottom: 5px;
+}
+
+pre {
+  white-space: pre-wrap;
+  font-size: 14px;
+}

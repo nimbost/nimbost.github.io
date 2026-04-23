@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>ThreadT Recon</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="app">
+
+  <header>
+    <h1>ThreadT</h1>
+    <p>Lightweight Recon Interface</p>
+  </header>
+
+  <section class="controls">
+    <input id="target" placeholder="Enter domain or IP">
+    <button onclick="runRecon()">Start Scan</button>
+  </section>
+
+  <section class="grid">
+    <div class="panel">
+      <h3>DNS</h3>
+      <pre id="dns">Waiting...</pre>
+    </div>
+
+    <div class="panel">
+      <h3>WHOIS</h3>
+      <pre id="whois">Waiting...</pre>
+    </div>
+
+    <div class="panel">
+      <h3>Ports</h3>
+      <pre id="ports">Waiting...</pre>
+    </div>
+
+    <div class="panel">
+      <h3>Logs</h3>
+      <pre id="logs">ThreadT ready.</pre>
+    </div>
+  </section>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
